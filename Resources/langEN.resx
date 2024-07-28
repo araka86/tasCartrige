@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddCartigeModal" xml:space="preserve">
+    <value>Add cartige</value>
+    <comment>Nomenclatura/Cartrige Add/Update (Title)</comment>
+  </data>
+  <data name="AddDepartmentModal" xml:space="preserve">
+    <value>Add Department</value>
+    <comment>Nomenclatura/Department  Add/Update</comment>
+  </data>
+  <data name="AddNewCartrigeMsgBox" xml:space="preserve">
+    <value>New cartridge added</value>
+    <comment>Nomenclatura/Cartrige Add/Update</comment>
+  </data>
+  <data name="AddNewDepartmenMsgBox" xml:space="preserve">
+    <value>The new department had been added</value>
+    <comment>Nomenclatura/Department  Add/Update</comment>
+  </data>
+  <data name="AddNewPrinterMsgBox" xml:space="preserve">
+    <value>New printer added</value>
+    <comment>Nomenclatura/Printer Add/Update</comment>
+  </data>
+  <data name="AddPrinterModal" xml:space="preserve">
+    <value>Add Printer</value>
+    <comment>Nomenclatura/Printer Add/Update</comment>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Address</value>
+    <comment>Nomenclatura/Department</comment>
+  </data>
+  <data name="Article" xml:space="preserve">
+    <value>Article</value>
+  </data>
+  <data name="ArticleCartrige" xml:space="preserve">
+    <value>Article</value>
+    <comment>Model/Cartrige</comment>
+  </data>
+  <data name="btnAddCartrige" xml:space="preserve">
+    <value>Add</value>
+    <comment>Nomenclatura/Cartrige</comment>
+  </data>
+  <data name="btnDellCartrige" xml:space="preserve">
+    <value>Del</value>
+    <comment>Nomenclatura/Cartrige</comment>
+  </data>
+  <data name="btnExportExel" xml:space="preserve">
+    <value>Export</value>
+    <comment>Nomenclatura/Cartrige</comment>
+  </data>
+  <data name="btnReceivingFromService" xml:space="preserve">
+    <value>Go to the menu cartridges from refills</value>
+    <comment>Nomenclatura/Cartriges/SendingForFilling</comment>
+  </data>
+  <data name="btnsendingToService" xml:space="preserve">
+    <value>Go to the menu cartridges for refilling</value>
+    <comment>Nomenclatura/Cartriges/SendingForFilling</comment>
+  </data>
+  <data name="btnUpdateCartrige" xml:space="preserve">
+    <value>Update</value>
+    <comment>Nomenclatura/Cartrige</comment>
+  </data>
+  <data name="Cartrige" xml:space="preserve">
+    <value>Cartrige</value>
+  </data>
+  <data name="CartrigeWasRemoved" xml:space="preserve">
+    <value>The cartridge has been removed</value>
+    <comment>Nomenclatura/Cartrige</comment>
+  </data>
+  <data name="ChekFieldMessage" xml:space="preserve">
+    <value>Both fields must be filled in</value>
+    <comment>Nomenclatura/Cartrige</comment>
+  </data>
+  <data name="ChekFieldMessageUpdate" xml:space="preserve">
+    <value>The cartridge has been updated</value>
+    <comment>Nomenclatura/Cartrige</comment>
+  </data>
+  <data name="ChekFieldMessageUpdateDepartment" xml:space="preserve">
+    <value>The new subdivision has been updated</value>
+    <comment>Nomenclatura/Department  Add/Update</comment>
+  </data>
+  <data name="ClearBtn" xml:space="preserve">
+    <value>Clear</value>
+    <comment>Nomenclatura/Cartriges/SendingForFilling</comment>
+  </data>
+  <data name="Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="DelPrinterMsgBox" xml:space="preserve">
+    <value>Printer removed</value>
+  </data>
+  <data name="Department" xml:space="preserve">
+    <value>Department</value>
+    <comment>Nomenclatura/Department</comment>
+  </data>
+  <data name="DepartmentWasRemoved" xml:space="preserve">
+    <value>The new subdivision has been deleted</value>
+    <comment>Nomenclatura/Department  Add/Update</comment>
+  </data>
+  <data name="gbCartrigeOnDepartment" xml:space="preserve">
+    <value>cartridges on departments</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="gbReceivingCartridges" xml:space="preserve">
+    <value>Receiving cartridges</value>
+    <comment>MainMenu/AcceptСartridgesFromLocations</comment>
+  </data>
+  <data name="labelCartrigeInfoAboveTheGrid" xml:space="preserve">
+    <value>Cartridges on service</value>
+    <comment>Nomenclatura/Cartriges/SendingForFilling</comment>
+  </data>
+  <data name="labelInfoGridInService" xml:space="preserve">
+    <value>Cartridges on service</value>
+    <comment>Nomenclatura/Cartriges/SendingForFilling</comment>
+  </data>
+  <data name="labelInfoGridNotInService" xml:space="preserve">
+    <value>Cartridges in the office</value>
+    <comment>Nomenclatura/Cartriges/SendingForFilling</comment>
+  </data>
+  <data name="lblAddressDepartment" xml:space="preserve">
+    <value>Address of department</value>
+    <comment>Nomenclatura/Department  Add/Update</comment>
+  </data>
+  <data name="lblArticle" xml:space="preserve">
+    <value>Article</value>
+    <comment>Nomenclatura/Cartrige Add/Update</comment>
+  </data>
+  <data name="lblDatePurchase" xml:space="preserve">
+    <value>DatePurchase</value>
+    <comment>Nomenclatura/Cartrige Add/Update</comment>
+  </data>
+  <data name="lblModel" xml:space="preserve">
+    <value>Cartrige Model</value>
+    <comment>Nomenclatura/Cartrige Add/Update</comment>
+  </data>
+  <data name="lblNameDepartment" xml:space="preserve">
+    <value>Name of Department</value>
+    <comment>Nomenclatura/Department  Add/Update</comment>
+  </data>
+  <data name="lblSearchArticle" xml:space="preserve">
+    <value>Search by article</value>
+    <comment>Nomenclatura/Cartriges/SendingForFilling</comment>
+  </data>
+  <data name="lblStatus" xml:space="preserve">
+    <value>Status</value>
+    <comment>Nomenclatura/Cartriges/SendingForFilling</comment>
+  </data>
+  <data name="ListAvilableCartrigeFarSedning" xml:space="preserve">
+    <value>List of available cartridges for shipment</value>
+    <comment>MainMenu/DistribOfCartridgesByLocation</comment>
+  </data>
+  <data name="ListOfCartrige" xml:space="preserve">
+    <value>List Of Cartrige</value>
+    <comment>Nomenclatura/Cartrige(Tittle)</comment>
+  </data>
+  <data name="ListOfDepartment" xml:space="preserve">
+    <value>List of department</value>
+    <comment>Nomenclatura/Department(Tittle)</comment>
+  </data>
+  <data name="ListOfPrinrter" xml:space="preserve">
+    <value>List of Prinrters</value>
+    <comment>Nomenclatura/Printer(Title)</comment>
+  </data>
+  <data name="MainListOfCartiges" xml:space="preserve">
+    <value>MainCartriges</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="main_Reception" xml:space="preserve">
+    <value>Main menu</value>
+    <comment>Main_Reseption(Titile)</comment>
+  </data>
+  <data name="MessageRemovePrinter" xml:space="preserve">
+    <value>The printer was removed</value>
+    <comment>Nomenclatura/Printer</comment>
+  </data>
+  <data name="MessageUpdatePrinter" xml:space="preserve">
+    <value>The printer has been updated</value>
+    <comment>Nomenclatura/Printer Add/Update</comment>
+  </data>
+  <data name="Model" xml:space="preserve">
+    <value>Model</value>
+  </data>
+  <data name="ModelCartrige" xml:space="preserve">
+    <value>Model</value>
+    <comment>Model/Cartrige</comment>
+  </data>
+  <data name="ModelPrinter" xml:space="preserve">
+    <value>Printer model</value>
+    <comment>Nomenclatura/Printer</comment>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="printersList" xml:space="preserve">
+    <value>List of printers</value>
+  </data>
+  <data name="printReceptExel" xml:space="preserve">
+    <value>Recepting</value>
+  </data>
+  <data name="printSendingExel" xml:space="preserve">
+    <value>Sending</value>
+  </data>
+  <data name="purchase_date" xml:space="preserve">
+    <value>Date</value>
+    <comment>Nomenclatura/Cartrige</comment>
+  </data>
+  <data name="ReceivingFromService" xml:space="preserve">
+    <value>Receiving from service</value>
+    <comment>Nomenclatura/Cartriges/SendingForFilling(title)</comment>
+  </data>
+  <data name="SearchArticle" xml:space="preserve">
+    <value>Search by cartridge article number</value>
+    <comment>MainMenu/DistribOfCartridgesByLocation</comment>
+  </data>
+  <data name="sendingToService" xml:space="preserve">
+    <value>Sending to service</value>
+    <comment>Nomenclatura/Cartriges/SendingForFilling(title)</comment>
+  </data>
+  <data name="ShowButton" xml:space="preserve">
+    <value>Show</value>
+    <comment>Nomenclatura/Cartriges/SendingForFilling</comment>
+  </data>
+  <data name="Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Subivision" xml:space="preserve">
+    <value>Subivision</value>
+  </data>
+  <data name="tsbAcceptCrtige" xml:space="preserve">
+    <value>Accept from service</value>
+    <comment>Nomenclatura/Cartriges/SendingForFilling</comment>
+  </data>
+  <data name="tsbApply" xml:space="preserve">
+    <value>Apply</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="tsbChangeModeArrival" xml:space="preserve">
+    <value>Reception</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="tsbChangeModeSend" xml:space="preserve">
+    <value>Sending</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="tsbChangeModeToolTipText" xml:space="preserve">
+    <value>Click to change</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="tsbReset" xml:space="preserve">
+    <value>Reset</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="tsbReturnFillCartrige" xml:space="preserve">
+    <value>Receive to warehouse</value>
+    <comment>Nomenclatura/Cartriges/SendingForFilling</comment>
+  </data>
+  <data name="tsbSendtoFillCartrige" xml:space="preserve">
+    <value>Send for cartridge refill</value>
+    <comment>Nomenclatura/Cartriges/SendingForFilling</comment>
+  </data>
+  <data name="tslCartriges" xml:space="preserve">
+    <value>Cartriges</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="tslDepartment" xml:space="preserve">
+    <value>Departments</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="tslFilter" xml:space="preserve">
+    <value>Filter</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="tsmenuLanguage" xml:space="preserve">
+    <value>Language</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="tsmiAcceptCartriges" xml:space="preserve">
+    <value>Accept from filling</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="tsmiAcceptFromLocation" xml:space="preserve">
+    <value>Accept from the location</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="tsmiEn" xml:space="preserve">
+    <value>English</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="tsmiMenu" xml:space="preserve">
+    <value>Menu</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="tsmiRu" xml:space="preserve">
+    <value>Russian</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="tsmiSendCartrige" xml:space="preserve">
+    <value>Send to fill</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="tsmiSendToLocation" xml:space="preserve">
+    <value>Send to location</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="tsmiUA" xml:space="preserve">
+    <value>Ukrainian</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="tsniPrinters" xml:space="preserve">
+    <value>Printers</value>
+    <comment>Main_Reseption</comment>
+  </data>
+  <data name="txStatusSendCartrigeNoOK" xml:space="preserve">
+    <value>In the office, you can send</value>
+    <comment>Nomenclatura/Cartriges/SendingForFilling</comment>
+  </data>
+  <data name="txStatusSendCartrigeNoOKReceive" xml:space="preserve">
+    <value>The cartridge is not in service and cannot be obtained</value>
+  </data>
+  <data name="txStatusSendCartrigeOK" xml:space="preserve">
+    <value>Not in service, can be sent</value>
+    <comment>Nomenclatura/Cartriges/SendingForFilling</comment>
+  </data>
+  <data name="txStatusSendCartrigeOKReceive" xml:space="preserve">
+    <value>The cartridge is being serviced, you can get it</value>
+    <comment>Nomenclatura/Cartriges/SendingForFilling</comment>
+  </data>
+  <data name="UpdateCartigeModal" xml:space="preserve">
+    <value>Update catrige</value>
+    <comment>Nomenclatura/Cartrige</comment>
+  </data>
+  <data name="UpdateDepartmentModal" xml:space="preserve">
+    <value>Update Department</value>
+    <comment>Nomenclatura/Department  Add/Update</comment>
+  </data>
+  <data name="UpdatePrinterModal" xml:space="preserve">
+    <value>Update printer</value>
+    <comment>Nomenclatura/Printer Add/Update(Title)</comment>
+  </data>
+  <data name="UpdatePrinterMsgBox" xml:space="preserve">
+    <value>Printer updated</value>
+  </data>
+  <data name="Weight" xml:space="preserve">
+    <value>Weight</value>
+  </data>
+  <data name="WriteIsUpdated" xml:space="preserve">
+    <value>Post updated!!!!</value>
+  </data>
+  <data name="WriteSuccessCartigeIn" xml:space="preserve">
+    <value>The cartridge has been registered for acceptance</value>
+  </data>
+  <data name="WriteSuccessCartigeOut" xml:space="preserve">
+    <value>Cartridge for shipment recorded</value>
+  </data>
+</root>

@@ -1,0 +1,216 @@
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\CartrigeAltstar.exe.config
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\CartrigeAltstar.exe.manifest
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\CartrigeAltstar.application
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\CartrigeAltstar.exe
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\CartrigeAltstar.pdb
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\en\CartrigeAltstar.resources.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\ClosedXML.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\DocumentFormat.OpenXml.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\EntityFramework.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\EntityFramework.SqlServer.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\ExcelNumberFormat.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Identity.Core.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\System.Buffers.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\System.IO.Packaging.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\System.Memory.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\System.Numerics.Vectors.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\System.ValueTuple.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\ClosedXML.pdb
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\ClosedXML.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\DocumentFormat.OpenXml.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\EntityFramework.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\EntityFramework.SqlServer.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\ExcelNumberFormat.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Identity.Core.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\System.Buffers.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\System.Memory.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\System.Numerics.Vectors.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\System.ValueTuple.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.csproj.AssemblyReference.cache
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Auth.LoginForm.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Dialogs.DialogForm.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.MainMenu.UpdateCartrigeLocation.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.main_Reception.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.AddDellCartrigeSubdivisionForm.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.AcceptСartridgesFromLocations.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.AddI_Del_infoOrgTehnic.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Nomenclatura.Cartriges.AddUpdateCartriges.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.ListCartrigeForm.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Nomenclatura.Cartriges.SendingForFilling.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.InfoOrgTechnic.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.AddUpdatePrinter.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.AddUpdateSubdivision.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.moving_the_cartridge.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.CartrigeSubdivision.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.ListSettingPinterForm.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.ListSubdivisionForm.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.PrinterSubdivision.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Properties.Resources.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.DistribOfCartridgesByLocation.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.UpdateMovingCartrige.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Resources.langEN.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Resources.langRU.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Resources.langUA.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.О_программе.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.AcceptСartridgesFromLocations.en.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.moving_the_cartridge.en.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.InfoOrgTechnic.en.resources
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.csproj.GenerateResource.cache
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.csproj.CoreCompileInputs.cache
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\en\CartrigeAltstar.resources.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.exe.manifest
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.application
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\Cartrige.21D41974.Up2Date
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.exe
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.pdb
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\OxyPlot.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\OxyPlot.WindowsForms.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\OxyPlot.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\OxyPlot.WindowsForms.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\LiveCharts.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\LiveCharts.WinForms.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\LiveCharts.Wpf.dll
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\LiveCharts.pdb
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\LiveCharts.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\LiveCharts.WinForms.pdb
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\LiveCharts.WinForms.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\LiveCharts.Wpf.pdb
+D:\Tasks\c#\Project\Offline_application_WinForm\bin\Debug\LiveCharts.Wpf.xml
+D:\Tasks\c#\Project\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Nomenclatura.History.ListHistoryForms.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\CartrigeAltstar.exe.config
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\CartrigeAltstar.exe.manifest
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\CartrigeAltstar.application
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\CartrigeAltstar.exe
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\CartrigeAltstar.pdb
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\en\CartrigeAltstar.resources.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\ClosedXML.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\DocumentFormat.OpenXml.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\EntityFramework.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\EntityFramework.SqlServer.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\ExcelNumberFormat.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\LiveCharts.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\LiveCharts.WinForms.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\LiveCharts.Wpf.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Identity.Core.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Options.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\OxyPlot.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\OxyPlot.WindowsForms.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\System.Buffers.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\System.ComponentModel.Annotations.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\System.IO.Packaging.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\System.Memory.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\System.Numerics.Vectors.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\System.ValueTuple.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\ClosedXML.pdb
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\ClosedXML.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\DocumentFormat.OpenXml.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\EntityFramework.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\EntityFramework.SqlServer.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\ExcelNumberFormat.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\LiveCharts.pdb
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\LiveCharts.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\LiveCharts.WinForms.pdb
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\LiveCharts.WinForms.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\LiveCharts.Wpf.pdb
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\LiveCharts.Wpf.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.AspNetCore.Cryptography.Internal.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.AspNetCore.Cryptography.KeyDerivation.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Identity.Core.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Options.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\OxyPlot.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\OxyPlot.WindowsForms.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\System.Buffers.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\System.Memory.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\System.Numerics.Vectors.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\bin\Debug\System.ValueTuple.xml
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.csproj.AssemblyReference.cache
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Auth.LoginForm.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Dialogs.DialogForm.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.MainMenu.UpdateCartrigeLocation.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.main_Reception.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.AddDellCartrigeSubdivisionForm.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.AcceptСartridgesFromLocations.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.AddI_Del_infoOrgTehnic.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Nomenclatura.Cartriges.AddUpdateCartriges.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.ListCartrigeForm.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Nomenclatura.Cartriges.SendingForFilling.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Nomenclatura.History.ListHistoryForms.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.InfoOrgTechnic.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.AddUpdatePrinter.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.AddUpdateSubdivision.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.moving_the_cartridge.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.CartrigeSubdivision.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.ListSettingPinterForm.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.ListSubdivisionForm.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.PrinterSubdivision.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Properties.Resources.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.DistribOfCartridgesByLocation.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.UpdateMovingCartrige.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Resources.langEN.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Resources.langRU.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Resources.langUA.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.О_программе.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.AcceptСartridgesFromLocations.en.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.moving_the_cartridge.en.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.InfoOrgTechnic.en.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.csproj.GenerateResource.cache
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.csproj.CoreCompileInputs.cache
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\en\CartrigeAltstar.resources.dll
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.exe.manifest
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.application
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\Cartrige.21D41974.Up2Date
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.exe
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.pdb
