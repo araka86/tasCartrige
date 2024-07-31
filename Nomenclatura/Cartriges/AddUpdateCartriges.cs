@@ -18,6 +18,7 @@ namespace CartrigeAltstar.Nomenclatura.Cartriges
         private readonly int? id;
         private Cartrige CartrigeModel;
         private CountCartige _countCartige;
+        private Cartrigelolocation _cartrigelolocation;
        
 
         /// <summary>
@@ -141,18 +142,33 @@ namespace CartrigeAltstar.Nomenclatura.Cartriges
                     //////add
 
 
+                    _cartrigelolocation = new Cartrigelolocation()
+                    {
+                        Status = "+",
+                        Cartrige = CartrigeModel.ModelCartrige,
+                        Data = dtpDatetimeCartrige.Value,
+                        CountCartige = CartrigeModel.CountCartrige,
+                        Department = "office"
+                        
 
-                    var tmpCart = db.Cartriges.FirstOrDefault(x => x.Id == this.id);
-
-                    _countCartige = new CountCartige();
-
-
-                    _countCartige.CartrigeId = tmpCart.Id;
-                    _countCartige.purchase_date = dtpDatetimeCartrige.Value;
-                    _countCartige.ModelCartrige = tbModelCartrige.Text;
-                    _countCartige.CountCartrige = CartrigeModel.CountCartrige;
-                    db.CountCartiges.Add(_countCartige);
+                        
+                    };
+                    db.Cartrigelolocations.Add(_cartrigelolocation);
                     db.SaveChanges();
+
+                    //var tmpCart = db.Cartriges.FirstOrDefault(x => x.Id == this.id);
+
+                    //_countCartige = new CountCartige();
+
+
+                    //_countCartige.CartrigeId = tmpCart.Id;
+                    //_countCartige.purchase_date = dtpDatetimeCartrige.Value;
+                    //_countCartige.ModelCartrige = tbModelCartrige.Text;
+                    //_countCartige.CountCartrige = CartrigeModel.CountCartrige;
+                    //db.CountCartiges.Add(_countCartige);
+                    //db.SaveChanges();
+
+
                     MessageBox.Show(resourceManager.GetString("ChekFieldMessageUpdate"));
                 }
                 else 

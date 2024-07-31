@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2F674A38-0B6C-46B4-9529-6661F9566743}|CartrigeAltstar.csproj|D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\main_reception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F674A38-0B6C-46B4-9529-6661F9566743}|CartrigeAltstar.csproj|solutionrelative:main_reception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F674A38-0B6C-46B4-9529-6661F9566743}|CartrigeAltstar.csproj|d:\\tac\\projc#\\new folder\\offline_application_winform\\nomenclatura\\cartriges\\addupdatecartriges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F674A38-0B6C-46B4-9529-6661F9566743}|CartrigeAltstar.csproj|solutionrelative:nomenclatura\\cartriges\\addupdatecartriges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F674A38-0B6C-46B4-9529-6661F9566743}|CartrigeAltstar.csproj|D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\nomenclatura\\cartriges\\addupdatecartriges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F674A38-0B6C-46B4-9529-6661F9566743}|CartrigeAltstar.csproj|solutionrelative:nomenclatura\\cartriges\\addupdatecartriges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F674A38-0B6C-46B4-9529-6661F9566743}|CartrigeAltstar.csproj|D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\mainmenu\\distribofcartridgesbylocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F674A38-0B6C-46B4-9529-6661F9566743}|CartrigeAltstar.csproj|solutionrelative:mainmenu\\distribofcartridgesbylocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F674A38-0B6C-46B4-9529-6661F9566743}|CartrigeAltstar.csproj|d:\\tac\\projc#\\new folder\\offline_application_winform\\data\\start_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F674A38-0B6C-46B4-9529-6661F9566743}|CartrigeAltstar.csproj|solutionrelative:data\\start_data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F674A38-0B6C-46B4-9529-6661F9566743}|CartrigeAltstar.csproj|D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\main_reception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2F674A38-0B6C-46B4-9529-6661F9566743}|CartrigeAltstar.csproj|solutionrelative:main_reception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F674A38-0B6C-46B4-9529-6661F9566743}|CartrigeAltstar.csproj|D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\model\\cartrige.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F674A38-0B6C-46B4-9529-6661F9566743}|CartrigeAltstar.csproj|solutionrelative:model\\cartrige.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Start_Data.cs",
+              "DocumentMoniker": "D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\Data\\Start_Data.cs",
+              "RelativeDocumentMoniker": "Data\\Start_Data.cs",
+              "ToolTip": "D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\Data\\Start_Data.cs",
+              "RelativeToolTip": "Data\\Start_Data.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T21:01:12.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cartrige.cs",
+              "DocumentMoniker": "D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\Model\\Cartrige.cs",
+              "RelativeDocumentMoniker": "Model\\Cartrige.cs",
+              "ToolTip": "D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\Model\\Cartrige.cs",
+              "RelativeToolTip": "Model\\Cartrige.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T19:10:18.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DistribOfCartridgesByLocation.cs",
+              "DocumentMoniker": "D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\MainMenu\\DistribOfCartridgesByLocation.cs",
+              "RelativeDocumentMoniker": "MainMenu\\DistribOfCartridgesByLocation.cs",
+              "ToolTip": "D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\MainMenu\\DistribOfCartridgesByLocation.cs",
+              "RelativeToolTip": "MainMenu\\DistribOfCartridgesByLocation.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAQwHkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T18:47:10.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddUpdateCartriges.cs",
+              "DocumentMoniker": "D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\Nomenclatura\\Cartriges\\AddUpdateCartriges.cs",
+              "RelativeDocumentMoniker": "Nomenclatura\\Cartriges\\AddUpdateCartriges.cs",
+              "ToolTip": "D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\Nomenclatura\\Cartriges\\AddUpdateCartriges.cs",
+              "RelativeToolTip": "Nomenclatura\\Cartriges\\AddUpdateCartriges.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAQwJQAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T18:40:03.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddUpdateCartriges.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\Nomenclatura\\Cartriges\\AddUpdateCartriges.cs",
+              "RelativeDocumentMoniker": "Nomenclatura\\Cartriges\\AddUpdateCartriges.cs",
+              "ToolTip": "D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\Nomenclatura\\Cartriges\\AddUpdateCartriges.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Nomenclatura\\Cartriges\\AddUpdateCartriges.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T18:40:01.786Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main_Reception.cs",
+              "DocumentMoniker": "D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\Main_Reception.cs",
+              "RelativeDocumentMoniker": "Main_Reception.cs",
+              "ToolTip": "D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\Main_Reception.cs",
+              "RelativeToolTip": "Main_Reception.cs",
+              "ViewState": "AQIAABECAAAAAAAAAAAQwCQCAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T18:39:50.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Main_Reception.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\Main_Reception.cs",
+              "RelativeDocumentMoniker": "Main_Reception.cs",
+              "ToolTip": "D:\\TAC\\ProjC#\\New folder\\Offline_application_WinForm\\Main_Reception.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Main_Reception.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T18:39:05.196Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

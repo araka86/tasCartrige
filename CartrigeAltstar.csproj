@@ -232,6 +232,19 @@
     <Compile Include="Main_Reception.Designer.cs">
       <DependentUpon>Main_Reception.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202407281715259_InitialCreate.cs" />
+    <Compile Include="Migrations\202407281715259_InitialCreate.Designer.cs">
+      <DependentUpon>202407281715259_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202407291852105_Initialupdate.cs" />
+    <Compile Include="Migrations\202407291852105_Initialupdate.Designer.cs">
+      <DependentUpon>202407291852105_Initialupdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202407291859520_Initialupdate1.cs" />
+    <Compile Include="Migrations\202407291859520_Initialupdate1.Designer.cs">
+      <DependentUpon>202407291859520_Initialupdate1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\CartrigeModels.cs" />
     <Compile Include="Model\CartrigeService.cs" />
     <Compile Include="Model\CountCartige.cs" />
@@ -383,6 +396,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Main_Reception.resx">
       <DependentUpon>Main_Reception.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202407281715259_InitialCreate.resx">
+      <DependentUpon>202407281715259_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202407291852105_Initialupdate.resx">
+      <DependentUpon>202407291852105_Initialupdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202407291859520_Initialupdate1.resx">
+      <DependentUpon>202407291859520_Initialupdate1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nomenclatura\Cartriges\AddDellCartrigeSubdivisionForm.resx">
       <DependentUpon>AddDellCartrigeSubdivisionForm.cs</DependentUpon>

@@ -509,127 +509,145 @@ namespace CartrigeAltstar
             //cartesianChart1.Series = series;
 
 
-            //try
-            //{
+            try
+            {
 
 
 
 
 
-            //    SeriesCollection series = new SeriesCollection();
+                SeriesCollection series = new SeriesCollection();
 
-            //    Dictionary<DateTime, int> keyValuePairs = new Dictionary<DateTime, int>();
+                Dictionary<DateTime, int> keyValuePairs = new Dictionary<DateTime, int>();
 
-            //    //    var testDate = db.Cartrigelolocations.Select(x => x.Data.Value.ToShortDateString).ToArray();
-            //    var tstto = dtp_from.Value;
-            //    var tstFrom = dtp_to.Value;
+                //    var testDate = db.Cartrigelolocations.Select(x => x.Data.Value.ToShortDateString).ToArray();
+                var tstFrom = dtp_from.Value.Date;
+                var tstto = dtp_to.Value.ToShortDateString();
 
-            //    var selectedCartrige = tscbCartriges.SelectedItem.ToString();
-
-
-
-            //    if (!db.Cartrigelolocations.Any(x => x.Cartrige == selectedCartrige))
-            //        throw new Exception($"Cartridge {selectedCartrige} is not found");
+                var selectedCartrige = tscbCartriges.SelectedItem.ToString();
 
 
 
+                if (!db.Cartrigelolocations.Any(x => x.Cartrige == selectedCartrige))
+                    throw new Exception($"Cartridge {selectedCartrige} is not found");
 
-            //    //находим по датам в уже отправленних локациях
-            //    var startCountBuy = db.Cartrigelolocations
-            //        .Where(y => y.Data >= dtp_from.Value && y.Data <= dtp_to.Value && y.Cartrige == selectedCartrige)
-            //        .Sum(x => x.CountCartige);
-
-            //    // находим колличество на момент(дата) пополнения
-            //    var startDataBuy = db.CountCartiges.Where(y => y.ModelCartrige == selectedCartrige).FirstOrDefault();
-
-            //    var startDataBuy2 = db.CountCartiges.Where(y => y.ModelCartrige == selectedCartrige).ToArray();
-
-
-            //    // добавляем первое значение
-            //    //  keyValuePairs.Add(startDataBuy.purchase_date.Value, startDataBuy.CountCartrige);
-            //    keyValuePairs.Add(startDataBuy2[0].purchase_date.Value, startDataBuy2[0].CountCartrige);
-            //    var statrtitem = startDataBuy2[0].CountCartrige;
-
-            //    keyValuePairs.Add(startDataBuy2[1].purchase_date.Value, startDataBuy2[1].CountCartrige);
-
-            //    var statrtitem2 = startDataBuy2[1].CountCartrige;
+                var startCountBuy1 = db.Cartrigelolocations
+               .Where(y => y.Data == tstFrom & y.Cartrige == selectedCartrige).ToArray();
 
 
 
 
-            //    foreach (var item in db.Cartrigelolocations)
-            //    {
+                // Преобразуем DateTimePicker значения в DateTime, обрезав время
+                DateTime dateFrom = dtp_from.Value.Date;
+                DateTime dateTo = dtp_to.Value.Date;
 
-            //        if (item.Cartrige == selectedCartrige)
-            //        {
-            //            if (startDataBuy2[1].purchase_date >= dtp_from.Value)
-            //            {
-            //                keyValuePairs.Add(item.Data.Value, statrtitem2 - item.CountCartige);
-            //            }
-            //            else
-            //            {
-            //                keyValuePairs.Add(item.Data.Value, statrtitem - item.CountCartige);
-            //            }
+                //var startCountBuy = db.Cartrigelolocations
+                //    .Where(y => DbFunctions.TruncateTime(y.Data) == dateFrom && y.Cartrige == selectedCartrige)
+                //    .ToArray();
 
 
 
 
-            //        }
+                var startCountBuy = db.Cartrigelolocations
+                        .Where(y => DbFunctions.TruncateTime(y.Data) >= dateFrom && DbFunctions.TruncateTime(y.Data) <= dateTo && y.Cartrige == selectedCartrige)
+                        .ToArray();
+
+                //находим по датам в уже отправленних локациях
+                //var startCountBuy = db.Cartrigelolocations
+                //    .Where(y => y.Data >= dtp_from.Value && y.Data <= dtp_to.Value && y.Cartrige == selectedCartrige).ToArray();
+                //     .Sum(x => x.CountCartige);
+
+                // находим колличество на момент(дата) пополнения
+                var startDataBuy = db.CountCartiges.Where(y => y.ModelCartrige == selectedCartrige).FirstOrDefault();
+
+                var startDataBuy2 = db.CountCartiges.Where(y => y.ModelCartrige == selectedCartrige).ToArray();
 
 
-            //    }
+                // добавляем первое значение
+                //  keyValuePairs.Add(startDataBuy.purchase_date.Value, startDataBuy.CountCartrige);
+                keyValuePairs.Add(startDataBuy2[0].purchase_date.Value, startDataBuy2[0].CountCartrige);
+                var statrtitem = startDataBuy2[0].CountCartrige;
 
+                keyValuePairs.Add(startDataBuy2[1].purchase_date.Value, startDataBuy2[1].CountCartrige);
 
-
-            //    keyValuePairs.OrderByDescending(kvp => kvp.Key);
-
-            //    // Сортировка по дате в порядке убывания
-            //    var sortedKeyValuePairs = keyValuePairs.OrderBy(kvp => kvp.Key).ToList();
-
-
-
-
-
-
-
-            //    // Первая линия
-            //    ChartValues<int> sportsValues = new ChartValues<int>();
-            //    List<string> dates = new List<string>();
-
-            //    int i = 0;
-
-            //    foreach (var data in sortedKeyValuePairs)
-            //    {
-            //        sportsValues.Add(data.Value);
-            //        dates.Add(data.Key.ToShortDateString());
-            //        i++;
-            //    }
-            //    cartesianChart1.AxisX.Clear();
-            //    cartesianChart1.AxisX.Add(new Axis
-            //    {
-            //        Title = "Dates",
-            //        Labels = dates
-            //    });
-
-            //    LineSeries line1 = new LineSeries
-            //    {
-            //        Title = "ТК-3160",
-            //        Values = sportsValues
-            //    };
-            //    series.Add(line1);
-            //    // Присваиваем общий SeriesCollection графику
-            //    cartesianChart1.Series = series;
+                var statrtitem2 = startDataBuy2[1].CountCartrige;
 
 
 
 
-            //}
-            //catch (Exception ex)
-            //{
+                foreach (var item in db.Cartrigelolocations)
+                {
 
-            //    MessageBox.Show(ex.Message);
-            //    return;
-            //}
+                    if (item.Cartrige == selectedCartrige)
+                    {
+                        if (startDataBuy2[1].purchase_date >= dtp_from.Value)
+                        {
+                            keyValuePairs.Add(item.Data.Value, statrtitem2 - item.CountCartige);
+                        }
+                        else
+                        {
+                            keyValuePairs.Add(item.Data.Value, statrtitem - item.CountCartige);
+                        }
+
+
+
+
+                    }
+
+
+                }
+
+
+
+                keyValuePairs.OrderByDescending(kvp => kvp.Key);
+
+                // Сортировка по дате в порядке убывания
+                var sortedKeyValuePairs = keyValuePairs.OrderBy(kvp => kvp.Key).ToList();
+
+
+
+
+
+
+
+                // Первая линия
+                ChartValues<int> sportsValues = new ChartValues<int>();
+                List<string> dates = new List<string>();
+
+                int i = 0;
+
+                foreach (var data in sortedKeyValuePairs)
+                {
+                    sportsValues.Add(data.Value);
+                    dates.Add(data.Key.ToShortDateString());
+                    i++;
+                }
+                cartesianChart1.AxisX.Clear();
+                cartesianChart1.AxisX.Add(new Axis
+                {
+                    Title = "Dates",
+                    Labels = dates
+                });
+
+                LineSeries line1 = new LineSeries
+                {
+                    Title = "ТК-3160",
+                    Values = sportsValues
+                };
+                series.Add(line1);
+                // Присваиваем общий SeriesCollection графику
+                cartesianChart1.Series = series;
+
+
+
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+                return;
+            }
 
 
 

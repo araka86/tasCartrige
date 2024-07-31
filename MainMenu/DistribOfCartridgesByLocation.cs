@@ -131,7 +131,8 @@ namespace CartrigeAltstar
                     Article = tbCartrigeArticle.Text,
                     Data = dtpData.Value,
                     Department = cbDepartment.SelectedItem.ToString(),
-                    CountCartige = int.Parse(numericUpDown1.Value.ToString())
+                    CountCartige = int.Parse(numericUpDown1.Value.ToString()),
+                    Status = "-"
                 };
 
                 db = new ContexAltstar();

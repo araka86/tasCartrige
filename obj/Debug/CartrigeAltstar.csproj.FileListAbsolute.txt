@@ -214,3 +214,6 @@ D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.a
 D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\Cartrige.21D41974.Up2Date
 D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.exe
 D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.pdb
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Migrations.InitialCreate.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Migrations.Initialupdate.resources
+D:\TAC\ProjC#\New folder\Offline_application_WinForm\obj\Debug\CartrigeAltstar.Migrations.Initialupdate1.resources
