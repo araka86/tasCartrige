@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CartrigeAltstar.exe" size="370176">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CartrigeAltstar.exe" size="373248">
       <assemblyIdentity name="CartrigeAltstar" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>6Nt6dKOs6k8l56p5/3lqwBucwW7fp4umV9FL+pFgQH8=</dsig:DigestValue>
+        <dsig:DigestValue>0qYtvZaOht9XTq9DCijv9JffDfLOh584a/GO2z5I7AY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>PyW8Pbj/Z4+uEloWftDS1XEC+W65JX1SwZCihD8TNKM=</dsig:DigestValue>
+        <dsig:DigestValue>I0qsPtWTAOKkhOAJKzXgX6Bz6KkyuKX5lMOscfPKhwE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

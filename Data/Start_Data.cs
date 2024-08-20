@@ -211,7 +211,7 @@ namespace CartrigeAltstar.Model
 
             var cartriges = new List<Cartrige>
                 {
-                    new Cartrige { ModelCartrige = "ТК-3400", ArticleCartrige = "A_ТК-3400", CountCartrige = 11 },
+                    new Cartrige { ModelCartrige = "ТК-3400", ArticleCartrige = "A_ТК-3400", CountCartrige = 11  },
                     new Cartrige { ModelCartrige = "ТК-3160", ArticleCartrige = "A_ТК-3160", CountCartrige = 16 },
                     new Cartrige { ModelCartrige = "ТК-3060", ArticleCartrige = "A_ТК-3060", CountCartrige = 10},
                     new Cartrige { ModelCartrige = "ТК-3190", ArticleCartrige = "A_ТК-3190", CountCartrige = 3 },
@@ -225,6 +225,19 @@ namespace CartrigeAltstar.Model
 
             // Saving changes to the database to get the Ids for Cartrige objects
             context.SaveChanges();
+            var startAdataLocations = new List<Cartrigelolocation>
+            {
+                new Cartrigelolocation{ Cartrige ="ТК-3400", Status= "+", CountCartige=11, Data = DateTime.Now.AddDays(-5) },
+                new Cartrigelolocation{ Cartrige ="ТК-3160", Status= "+", CountCartige=16, Data = DateTime.Now.AddDays(-5) },
+                new Cartrigelolocation{ Cartrige ="ТК-3190", Status= "+", CountCartige=10, Data = DateTime.Now.AddDays(-5) },
+                new Cartrigelolocation{ Cartrige ="ТК-3400", Status= "+", CountCartige=3, Data = DateTime.Now.AddDays(-5) },
+                new Cartrigelolocation{ Cartrige ="ТК-3100", Status= "+", CountCartige=14, Data = DateTime.Now.AddDays(-5) },
+                new Cartrigelolocation{ Cartrige ="ТК-1150", Status= "+", CountCartige=1, Data = DateTime.Now.AddDays(-5) },
+                new Cartrigelolocation{ Cartrige ="ТК-3130", Status= "+", CountCartige=0, Data = DateTime.Now.AddDays(-5) }
+            };
+            context.Cartrigelolocations.AddRange(startAdataLocations);
+            context.SaveChanges();
+
 
             // Creating CountCartige objects with the foreign key set
             var countCartiges = new List<CountCartige>
@@ -304,7 +317,7 @@ namespace CartrigeAltstar.Model
 
 
 
-
+            ////another logig
 
             // Инициализация начальных данных
             var models = new List<CartrigeModel>

@@ -18,6 +18,7 @@ using System.Drawing;
 using LiveCharts;
 using LiveCharts.Wpf;
 using CartrigeAltstar.Nomenclatura.History;
+using DocumentFormat.OpenXml.Drawing.Charts;
 //using System.Windows.Forms.DataVisualization.Charting;
 
 namespace CartrigeAltstar
@@ -112,7 +113,7 @@ namespace CartrigeAltstar
             tslFilter.Text = resourceManager.GetString("tslFilter");
             tslCartriges.Text = resourceManager.GetString("tslCartriges");
             tslDepartment.Text = resourceManager.GetString("tslDepartment");
-            tsbApply.Text = resourceManager.GetString("tsbApply");
+
             tsbResetFiltr.Text = resourceManager.GetString("tsbReset");
             //tsbChangeMode.Text = ChekMode ? resourceManager.GetString("tsbChangeModeSend") : resourceManager.GetString("tsbChangeModeArrival");
             //tsbChangeMode.ToolTipText = resourceManager.GetString("tsbChangeModeToolTipText");
@@ -509,158 +510,13 @@ namespace CartrigeAltstar
             //cartesianChart1.Series = series;
 
 
-            try
-            {
-
-
-
-
-
-                SeriesCollection series = new SeriesCollection();
-
-                Dictionary<DateTime, int> keyValuePairs = new Dictionary<DateTime, int>();
-
-                //    var testDate = db.Cartrigelolocations.Select(x => x.Data.Value.ToShortDateString).ToArray();
-                var tstFrom = dtp_from.Value.Date;
-                var tstto = dtp_to.Value.ToShortDateString();
-
-                var selectedCartrige = tscbCartriges.SelectedItem.ToString();
-
-
-
-                if (!db.Cartrigelolocations.Any(x => x.Cartrige == selectedCartrige))
-                    throw new Exception($"Cartridge {selectedCartrige} is not found");
-
-                var startCountBuy1 = db.Cartrigelolocations
-               .Where(y => y.Data == tstFrom & y.Cartrige == selectedCartrige).ToArray();
-
-
-
-
-                // Преобразуем DateTimePicker значения в DateTime, обрезав время
-                DateTime dateFrom = dtp_from.Value.Date;
-                DateTime dateTo = dtp_to.Value.Date;
-
-                //var startCountBuy = db.Cartrigelolocations
-                //    .Where(y => DbFunctions.TruncateTime(y.Data) == dateFrom && y.Cartrige == selectedCartrige)
-                //    .ToArray();
-
-
-
-
-                var startCountBuy = db.Cartrigelolocations
-                        .Where(y => DbFunctions.TruncateTime(y.Data) >= dateFrom && DbFunctions.TruncateTime(y.Data) <= dateTo && y.Cartrige == selectedCartrige)
-                        .ToArray();
-
-                //находим по датам в уже отправленних локациях
-                //var startCountBuy = db.Cartrigelolocations
-                //    .Where(y => y.Data >= dtp_from.Value && y.Data <= dtp_to.Value && y.Cartrige == selectedCartrige).ToArray();
-                //     .Sum(x => x.CountCartige);
-
-                // находим колличество на момент(дата) пополнения
-                var startDataBuy = db.CountCartiges.Where(y => y.ModelCartrige == selectedCartrige).FirstOrDefault();
-
-                var startDataBuy2 = db.CountCartiges.Where(y => y.ModelCartrige == selectedCartrige).ToArray();
-
-
-                // добавляем первое значение
-                //  keyValuePairs.Add(startDataBuy.purchase_date.Value, startDataBuy.CountCartrige);
-                keyValuePairs.Add(startDataBuy2[0].purchase_date.Value, startDataBuy2[0].CountCartrige);
-                var statrtitem = startDataBuy2[0].CountCartrige;
-
-                keyValuePairs.Add(startDataBuy2[1].purchase_date.Value, startDataBuy2[1].CountCartrige);
-
-                var statrtitem2 = startDataBuy2[1].CountCartrige;
-
-
-
-
-                foreach (var item in db.Cartrigelolocations)
-                {
-
-                    if (item.Cartrige == selectedCartrige)
-                    {
-                        if (startDataBuy2[1].purchase_date >= dtp_from.Value)
-                        {
-                            keyValuePairs.Add(item.Data.Value, statrtitem2 - item.CountCartige);
-                        }
-                        else
-                        {
-                            keyValuePairs.Add(item.Data.Value, statrtitem - item.CountCartige);
-                        }
-
-
-
-
-                    }
-
-
-                }
-
-
-
-                keyValuePairs.OrderByDescending(kvp => kvp.Key);
-
-                // Сортировка по дате в порядке убывания
-                var sortedKeyValuePairs = keyValuePairs.OrderBy(kvp => kvp.Key).ToList();
+        
 
 
 
 
 
 
-
-                // Первая линия
-                ChartValues<int> sportsValues = new ChartValues<int>();
-                List<string> dates = new List<string>();
-
-                int i = 0;
-
-                foreach (var data in sortedKeyValuePairs)
-                {
-                    sportsValues.Add(data.Value);
-                    dates.Add(data.Key.ToShortDateString());
-                    i++;
-                }
-                cartesianChart1.AxisX.Clear();
-                cartesianChart1.AxisX.Add(new Axis
-                {
-                    Title = "Dates",
-                    Labels = dates
-                });
-
-                LineSeries line1 = new LineSeries
-                {
-                    Title = "ТК-3160",
-                    Values = sportsValues
-                };
-                series.Add(line1);
-                // Присваиваем общий SeriesCollection графику
-                cartesianChart1.Series = series;
-
-
-
-
-            }
-            catch (Exception ex)
-            {
-
-                MessageBox.Show(ex.Message);
-                return;
-            }
-
-
-
-
-            try
-            {
-                DisplayAllCartrigeUsageStatistics();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-                Console.WriteLine(ex.Message);
-            }
 
         }
 
@@ -668,41 +524,48 @@ namespace CartrigeAltstar
         public Dictionary<DateTime, Dictionary<string, int>> GetAllCartrigeUsageStatistics()
         {
             var usageStatistics = new SortedDictionary<DateTime, Dictionary<string, int>>();
-            var models = db.CartrigeModels.ToList();
+          //  var models = db.CartrigeModels.ToList();
+            var models2 = db.Cartriges.ToList();
 
-            foreach (var model in models)
+            foreach (var model in models2)
             {
                 var modelStats = new Dictionary<DateTime, int>();
                 int currentStock = 0;
 
-                var purchases = db.CartrigePurchases
-                    .Where(p => p.ModelId == model.Id)
-                    .OrderBy(p => p.PurchaseDate)
-                    .ToList();
+                //var purchases = db.CartrigePurchases
+                //    .Where(p => p.ModelId == model.Id)
+                //    .OrderBy(p => p.PurchaseDate)
+                //    .ToList();
 
-                var issues = db.CartrigeIssues
-                    .Where(i => i.ModelId == model.Id)
-                    .OrderBy(i => i.IssueDate)
-                    .ToList();
+                var _cartrigelolocations = db.Cartrigelolocations
+                 .Where(p => p.Cartrige == model.ModelCartrige)
+                 .OrderBy(p => p.Data)
+                 .ToList();
 
-                foreach (var purchase in purchases)
+
+                //var issues = db.CartrigeIssues
+                //    .Where(i => i.ModelId == model.Id)
+                //    .OrderBy(i => i.IssueDate)
+                //    .ToList();
+
+                foreach (var purchase in _cartrigelolocations)
                 {
-                    currentStock += purchase.Quantity;
-                    modelStats[purchase.PurchaseDate] = currentStock;
+                    currentStock += purchase.CountCartige;
+                    modelStats[purchase.Data.Value] = currentStock;
                 }
 
-                foreach (var issue in issues)
-                {
-                    if (modelStats.ContainsKey(issue.IssueDate))
-                    {
-                        modelStats[issue.IssueDate] -= issue.Quantity;
-                    }
-                    else
-                    {
-                        currentStock -= issue.Quantity;
-                        modelStats[issue.IssueDate] = currentStock;
-                    }
-                }
+                //foreach (var issue in issues)
+                //{
+                //    if (modelStats.ContainsKey(issue.IssueDate))
+                //    {
+                //        modelStats[issue.IssueDate] -= issue.Quantity;
+                //    }
+                //    else
+                //    {
+                //        currentStock -= issue.Quantity;
+                //        modelStats[issue.IssueDate] = currentStock;
+                //    }
+                //}
 
                 foreach (var entry in modelStats.OrderBy(e => e.Key))
                 {
@@ -710,7 +573,7 @@ namespace CartrigeAltstar
                     {
                         usageStatistics[entry.Key] = new Dictionary<string, int>();
                     }
-                    usageStatistics[entry.Key][model.ModelName] = entry.Value;
+                    usageStatistics[entry.Key][model.ModelCartrige] = entry.Value;
                 }
             }
 
@@ -807,6 +670,215 @@ namespace CartrigeAltstar
             var _listHistoryForms = new ListHistoryForms();
             _listHistoryForms.FormClosing += RefreshMainDatagrid;
             _listHistoryForms.Show();
+        }
+
+        private void tsbSingleStat_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+
+
+
+
+                SeriesCollection series = new SeriesCollection();
+
+                Dictionary<DateTime, int> keyValuePairs = new Dictionary<DateTime, int>();
+
+                //    var testDate = db.Cartrigelolocations.Select(x => x.Data.Value.ToShortDateString).ToArray();
+                var tstFrom = dtp_from.Value.Date;
+                var tstto = dtp_to.Value.ToShortDateString();
+               
+
+                var selectedCartrige = tscbCartriges.SelectedItem.ToString();
+
+
+
+                if (!db.Cartrigelolocations.Any(x => x.Cartrige == selectedCartrige))
+                    throw new Exception($"Cartridge {selectedCartrige} is not found");
+
+                var startCountBuy1 = db.Cartrigelolocations
+               .Where(y => y.Data == tstFrom & y.Cartrige == selectedCartrige).ToArray();
+
+
+
+
+                // Преобразуем DateTimePicker значения в DateTime, обрезав время
+                DateTime dateFrom = dtp_from.Value.Date;
+                DateTime dateTo = dtp_to.Value.Date;
+
+
+
+
+
+                var startCountBuy = db.Cartrigelolocations
+                        .Where(y => DbFunctions.TruncateTime(y.Data) >= dateFrom && DbFunctions.TruncateTime(y.Data) <= dateTo && y.Cartrige == selectedCartrige)
+                        .ToArray();
+
+
+
+                int strtItem = 0;
+
+                if (startCountBuy[0].Status =="+")
+                {
+                    strtItem = startCountBuy[0].CountCartige;
+                    keyValuePairs.Add(startCountBuy[0].Data.Value, strtItem);
+                }
+                else
+                {
+
+                    // начальний счет картриджа
+   //   var factCaretigeCount = db.Cartriges
+                }
+
+               
+
+                int index = 0;
+                foreach (var item in startCountBuy)
+                {
+                    if (index == 0)
+                    {
+                        index++;
+                        continue;
+                    }
+
+                    if (item.Status == "+")
+                    {
+                        strtItem = item.CountCartige;
+                        keyValuePairs.Add(item.Data.Value, strtItem);
+                        index++;
+                        
+                        continue;
+                    }
+
+                    keyValuePairs.Add(item.Data.Value, strtItem - item.CountCartige);
+                    index++;
+                }
+
+
+
+
+
+                //    keyValuePairs.OrderByDescending(kvp => kvp.Key);
+
+                // Сортировка по дате в порядке убывания
+                var sortedKeyValuePairs = keyValuePairs.OrderBy(kvp => kvp.Key).ToList();
+
+
+
+
+
+
+
+                // Первая линия
+                ChartValues<int> sportsValues = new ChartValues<int>();
+                List<string> dates = new List<string>();
+
+                int i = 0;
+
+                foreach (var data in sortedKeyValuePairs)
+                {
+                    sportsValues.Add(data.Value);
+                    dates.Add(data.Key.ToShortDateString());
+                    i++;
+                }
+                cartesianChart1.AxisX.Clear();
+                cartesianChart1.AxisX.Add(new Axis
+                {
+                    Title = "Dates",
+                    Labels = dates
+                });
+
+                LineSeries line1 = new LineSeries
+                {
+                    Title = selectedCartrige,
+                    Values = sportsValues
+                };
+                series.Add(line1);
+                // Присваиваем общий SeriesCollection графику
+                cartesianChart1.Series = series;
+
+
+
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+                return;
+            }
+
+        }
+
+        private void tsbAllStat_Click(object sender, EventArgs e)
+        {
+
+            ////all
+
+
+            try
+            {
+                DisplayAllCartrigeUsageStatistics();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+                Console.WriteLine(ex.Message);
+            }
+        }
+
+        private void tsblastweek_Click(object sender, EventArgs e)
+        {
+
+
+            db.Cartrigelolocations.Load();
+            DateTime today = DateTime.Today;
+            DayOfWeek currentDay = today.DayOfWeek;
+            int daysToMonday = (int)currentDay - (int)DayOfWeek.Monday;
+            if (daysToMonday < 0)
+                    daysToMonday += 7;
+            DateTime monday = today.AddDays(-daysToMonday);
+           // var startWeek = monday.ToString("dd.MM.yyyy");
+
+
+            if (tscbCartriges.SelectedItem.ToString() != "select_item"
+                && tscbDepartment.SelectedItem.ToString() != "select_item")
+            {
+                dgwMain.DataSource = db.Cartrigelolocations.Local.ToBindingList().Where(x => x.Cartrige == tscbCartriges.SelectedItem.ToString() 
+                &&
+               x.Department == tscbDepartment.SelectedItem.ToString()
+              
+               ).ToList().OrderBy(y => y.Data).ToArray().OrderBy(y => y.Data).ToArray();
+            }
+            else if (tscbCartriges.SelectedItem.ToString() != "select_item")
+            {
+
+                var qqq = db.Cartrigelolocations.Where(x => x.Cartrige == tscbCartriges.SelectedItem.ToString()
+                 &&
+               DbFunctions.TruncateTime(x.Data) >= monday)
+                    .OrderBy(y => y.Data)
+                    .ToArray();
+
+
+                dgwMain.DataSource = db.Cartrigelolocations.Where(x => x.Cartrige == tscbCartriges.SelectedItem.ToString()
+                 &&
+               DbFunctions.TruncateTime(x.Data) >= monday)
+                    .OrderBy(y => y.Data).ToArray();
+            }
+            else
+            {
+
+                dgwMain.DataSource = db.Cartrigelolocations.Local
+                    .ToBindingList()
+                    .Where(x => x.Department == tscbDepartment.SelectedItem.ToString()
+                    && DbFunctions.TruncateTime(x.Data) >= monday
+                    )
+                    .ToList()
+                    .OrderBy(y => y.Data).ToArray(); ;
+            }
+
+
         }
     }
 }
